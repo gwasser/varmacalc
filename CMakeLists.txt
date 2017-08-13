@@ -23,7 +23,8 @@ project(varmacalc)
 
 cmake_minimum_required(VERSION 3.0)
 set(QT_MIN_VERSION "5.6.0")
-set(KF5_MIN_VERSION "5.23.0")
+# KF5 5.28.0 includes the thermal units in upstream
+set(KF5_MIN_VERSION "5.28.0")
 
 # Locate extra-cmake-modules and make it a required package
 find_package(ECM 1.0.0 REQUIRED NO_MODULE)
