@@ -28,9 +28,9 @@ set(CPP_SOURCES
 add_executable(varmacalc ${CPP_SOURCES})
 
 target_link_libraries(varmacalc
-    Qt5::Widgets
-    KF5::UnitConversion
-    KF5::Plotting
+    Qt6::Widgets
+    KF6::UnitConversion
+    KF6::Plotting
 )
 
 #install( TARGETS varmacalc ${INSTALL_TARGETS_DEFAULT_ARGS} )

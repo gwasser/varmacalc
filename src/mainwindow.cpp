@@ -41,11 +41,11 @@ using Eigen::Vector2d;
 #include <QPen>
 
 
-#include <KF5/KPlotting/KPlotObject>
-#include <KF5/KPlotting/KPlotWidget>
-#include <KF5/KPlotting/KPlotAxis>
-#include <KF5/KUnitConversion/KUnitConversion/Converter>
-#include <KF5/KUnitConversion/KUnitConversion/Value>
+#include <KF6/KPlotting/KPlotObject>
+#include <KF6/KPlotting/KPlotWidget>
+#include <KF6/KPlotting/KPlotAxis>
+#include <KF6/KUnitConversion/KUnitConversion/Converter>
+#include <KF6/KUnitConversion/KUnitConversion/Value>
 using KUnitConversion::Value;
 
 MainWindow::MainWindow(QWidget *parent)

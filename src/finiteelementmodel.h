@@ -28,8 +28,8 @@ using Eigen::Matrix2d;
 using Eigen::VectorXd;
 using Eigen::Vector2d;
 
-#include <KF5/KUnitConversion/KUnitConversion/Converter>
-#include <KF5/KUnitConversion/KUnitConversion/Value>
+#include <KF6/KUnitConversion/KUnitConversion/Converter>
+#include <KF6/KUnitConversion/KUnitConversion/Value>
 using KUnitConversion::Value;
 
 // define a struct to hold info about solution to

@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     a.setApplicationName("VarmaCalc");
     a.setApplicationDisplayName("VarmaCalc");
-    a.setApplicationVersion("0.0.2");
+    a.setApplicationVersion("0.0.3");
 
     MainWindow w;
     w.setWindowTitle("Home");

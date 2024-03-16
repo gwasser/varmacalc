@@ -6,33 +6,26 @@ VarmaCalc displays the approximate finite element solution for
 some heat transfer scenarios. You can also compare it
 to the analytical solution.
 
-This is really just a demo of using Qt/KF5 to
+This is really just a demo of using Qt/KF6 to
 make scientific software. If I have more time,
 I'd like to spiff it up. We'll see. But
 maybe it will be useful in its current form to someone.
 
 ## Building ##
 
-VarmaCalc is primarily written in C++ using Qt5 with the KDE
-Frameworks 5 libraries.
+VarmaCalc is primarily written in C++ using Qt6 with the KDE
+Frameworks 6 libraries.
 
 More specifically, you need:
-* Qt5
+* Qt6
 * Eigen >= 3.2.2  (MPL2 license)
-* KPlotting 5.24.0  (LGPLv3 license)
-* KUnitConversion 5.24.0 (LGPLv3 license)
-
-Currently, KUnitConversion does not contain heat transfer units.
-I've submitted them for inclusion in a future release,
-so until then, the units don't work for the thermodynamic units.
-You will get funny errors going back and forth between
-metric and english units, for example.
-
+* KPlotting >= 6.0.0  (LGPLv3 license)
+* KUnitConversion >= 6.0.0 (LGPLv3 license)
 
 ## Licensing ##
 
 VarmaCalc - a finite element modeling software
-Copyright (C) 2014 Garret Wassermann
+Copyright (C) 2014,2024 Garret Wassermann
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
